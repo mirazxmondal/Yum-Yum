@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    padding: 10px;
+}
+
+.login {
+    margin-top: 15%;
+}
+
+p {
+    text-align: center;
+}
+
+.input-submit {
+    justify-content: center;
+}
+
+.imagediv {
+    filter: blur(2px);
+}
