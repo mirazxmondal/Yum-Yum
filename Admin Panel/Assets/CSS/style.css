@@ -1,3 +1,8 @@
+body {
+    background-color: #FB966F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .main {
     display: flex;
     flex-direction: row;
@@ -5,21 +10,44 @@
     margin: auto;
     margin-top: 5%;
     width: 50%;
-    padding: 10px;
+    background-color: white;
+    /* box-shadow: 10px 11px 11px -5px rgba(0,0,0,0.75); */
+}
+
+input {
+    height: 30px;
 }
 
 .login {
     margin-top: 15%;
+    padding-left: 90px;
 }
 
-p {
-    text-align: center;
+.admin-heading {
+    justify-content: center;
+    font-size: x-large;
 }
 
 .input-submit {
     justify-content: center;
 }
 
+input[type=submit] {
+    padding: 5px 15px; 
+    background-color: #FB966F;
+    color: white;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 .imagediv {
-    filter: blur(2px);
+    height: 600px;
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
 }
