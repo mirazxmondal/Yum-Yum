@@ -1,6 +1,7 @@
 body {
     background-color: #FB966F;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
 }
 
 .main {
@@ -11,7 +12,7 @@ body {
     margin-top: 5%;
     width: 50%;
     background-color: white;
-    /* box-shadow: 10px 11px 11px -5px rgba(0,0,0,0.75); */
+    box-shadow: 10px 11px 11px -8px rgba(0,0,0,0.75);
 }
 
 input {
@@ -41,6 +42,15 @@ input[type=submit] {
     border-radius: 5px;
 }
 
+.image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 400px;
+    border-radius: 15px;
+}
+
 .imagediv {
     height: 600px;
     width: 400px;
@@ -49,5 +59,5 @@ input[type=submit] {
 a {
     text-decoration: none;
     color: black;
-    font-size: smaller;
+    font-size: small;
 }
