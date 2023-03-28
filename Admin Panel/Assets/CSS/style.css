@@ -79,3 +79,20 @@ a {
 .spassword {
     font-size: 10px;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+
+    .main {
+        width: auto;
+    }
+
+    .image {
+        text-align: center;
+    }
+
+    .imagediv {
+        height: 400px;
+        width: 300px;
+    }
+  }
