@@ -1,4 +1,4 @@
-console.log("Admin-panel")
+console.log("Admin-Panel")
 
 function myFunction() {
     var x = document.getElementById("myInput");
