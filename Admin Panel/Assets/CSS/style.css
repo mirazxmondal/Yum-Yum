@@ -6,7 +6,7 @@ body {
 
 .main {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: auto;
     margin-top: 5%;
@@ -27,6 +27,11 @@ input {
 .admin-heading {
     justify-content: center;
     font-size: x-large;
+    font-weight: 600;
+}
+
+.label {
+    font-weight: 400;
 }
 
 .input-submit {
@@ -40,6 +45,10 @@ input[type=submit] {
     border: 0 none;
     cursor: pointer;
     border-radius: 5px;
+}
+
+input[type=checkbox] {
+    height: 30px;
 }
 
 .image {
@@ -60,4 +69,13 @@ a {
     text-decoration: none;
     color: black;
     font-size: small;
+}
+
+.password {
+    display: flex;
+    flex-direction: row;
+}
+
+.spassword {
+    font-size: 10px;
 }
