@@ -16,16 +16,15 @@ a {
 }
 
 .a-text {
-    padding-left: 120px;
+    padding-left: 115px;
     padding-right: 70px;
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: 500;
-    margin-top: 45px;
-    
+    margin-top: 30px;
 }
 
 .a-cart {
-    margin-top: 45px;
+    margin-top: 30px;
     position: absolute;
     right: 5%;
 }
@@ -41,6 +40,7 @@ ul {
     flex-wrap: wrap;
     margin: 0%;
 }
+
 
 /* Button-animation */
 .button {
@@ -80,7 +80,6 @@ ul {
     transition: all 0.475s;
   }
 
-/* Button-animation */
 
 /* Main Page */
 .banner {
@@ -98,6 +97,7 @@ ul {
     font-size: 70px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 .banner-second-text {
@@ -106,17 +106,18 @@ ul {
     font-size: 30px;
     text-align: center;
     font-family: 'Pacifico', sans-serif;
+    font-weight: 400;
 }
 
 .search {
     justify-content: center;
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 #icon {
     color: #ff6b81;
-    margin-right: 10px;
     margin-top: 10px;
 }
 
@@ -142,4 +143,23 @@ input[type='text']
 .button-search:hover {
     background-color: #ff4757;
     color: white;
+}
+
+/* Restaurant Section */
+/* .restaurant {
+
+} */
+
+.restaurant-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.restaurant-name {
+    height: 220px;
+    width: 220px;
+    border: solid 5px black;
 }
