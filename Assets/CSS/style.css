@@ -19,7 +19,7 @@ body {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #ff6b81;
+    background: #FC8EAC;
     width: 1rem;
   }
   
@@ -73,7 +73,7 @@ ul {
     height: 3rem;
     padding: 0 2rem;
     border-radius: 1.5rem;
-    background: #ff6b81;
+    background: #FC8EAC;
     background-size: 400%;
     color: #fff;
     cursor: pointer;
@@ -117,6 +117,7 @@ ul {
 }
 
 .banner-first-text {
+    color: #ff6b81;
     margin: auto;
     font-size: 70px;
     text-align: center;
@@ -125,6 +126,7 @@ ul {
 }
 
 .banner-second-text {
+    color: #ff6b81;
     margin: auto;
     margin-bottom: 20px;
     font-size: 30px;
@@ -170,11 +172,8 @@ input[type='text']
 }
 
 /* Restaurant Section */
-/* .restaurant {
-
-} */
-
 h1 {
+    font-family: "JetBrains Mono", monospace;
     margin-left: 45px;
     color: #ff4757
 }
@@ -203,3 +202,129 @@ h1 {
     margin-top: 50px;
     text-align: center;
 }
+
+/* FAQ Section */
+.faq-heading {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 45px;
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .accordion-wrapper {
+    margin: 0 50px;
+  }
+  
+  .accordion {
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 10px 0 0;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+  }
+  
+  .main-acc {
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 6px 6px 6px 6px;
+    padding: 15px;
+  }
+  
+  .main-acc.one {
+    background: #FC8EAC;
+  }
+  
+  .main-acc.two {
+    background: #FC8EAC;
+  }
+  
+  .main-acc.three {
+    background: #FC8EAC;
+  }
+  
+  .main-acc.four {
+    background: #FC8EAC;
+  }
+  
+  .main-acc.five {
+    background: #FC8EAC;
+  }
+  
+  .main-acc.six {
+    background: #FC8EAC;
+  }
+  
+  .main-acc.active {
+    border-top: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-left: 3px solid #000000;
+    border-bottom: none;
+    border-radius: 6px 6px 0px 0px;
+  }
+  
+  .main-acc:hover {
+    background-color: #FC6C85;
+  }
+  
+  .sub-acc {
+    background-color: white;
+    text-decoration: underline;
+    margin: 0;
+    padding: 18px 28px;
+  }
+  
+  .accordion:after {
+    content: "\002B";
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    font-size: 28px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    border: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  .sub-panel {
+    border: none;
+  }
+  
+  .sub-panel p {
+    padding: 0 18px;
+    margin: 10px 20px;
+    font-family: sans-serif;
+  }
+  
+  .accordion.active + .main-panel {
+    border: 3px solid #000000;
+    border-radius: 0px 0px 6px 6px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  }
+
+  @media (max-width: 767px) {
+    .bar {
+      background-color: black;
+      height: 3px;
+      margin: 6px 0;
+      width: 26px;
+    }
+  }
+  
