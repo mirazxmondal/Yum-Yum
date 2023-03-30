@@ -1,4 +1,4 @@
-console.log("Landing-Page")
+console.log("Landing-Page");
 
 // FAQs Section
 var acc = document.getElementsByClassName("accordion");
@@ -20,9 +20,15 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-const hamburger = document.querySelector(".hamburger-menu");
-const navLinks = document.querySelector(".nav-links");
+const hamburger = document.querySelector(".hamburger-icon");
+// const navLinks = document.querySelector(".nav-links");
+const ulLinks = document.querySelector(".ul-list1");
 
 hamburger.addEventListener("click", function () {
-  navLinks.classList.toggle("show");
+  hamburger.classList.toggle("inactive");
+  ulLinks.classList.remove("inactive");
 });
+
+// ulLinks.addEventListener("click", function () {
+//   ulLinks.classList.toggle("inactive");
+// });

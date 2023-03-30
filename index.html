@@ -1,237 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="./Assets/CSS/style.css">
-    <link rel="icon" type="image/x-icon" href="./Assets/Image/favicon.png">
-    <title> Yum Yum - Home </title>
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <link rel="icon" type="image/x-icon" href="./Assets/Image/favicon.png" />
+    <title>Yum Yum - Home</title>
+  </head>
+  <body>
     <!-- Navbar -->
     <header>
-    <nav>
-        <ul>
-        <li><a href="./index.html"><img src="./Assets/Image/yum-yum-logo.png" alt="Yum-Yum-Logo" class="yum-yum-navlogo"></a></li>
-        <li class="a-text"><a href="./index.html">Home</a></li>
-        <li class="a-text"><a href="./Assets/HTML/explore.html">Explore</a></li>
-        <li class="a-text"><a href="./Assets/HTML/about.html">About</a></li>
-        <li class="a-text">
-            <a href="./Assets/HTML/loginregister.html">
-                <button class="button">
-                <span class="button-content">Login | Register</span>
-                </button>
-            </a>
-        </li>
-        <li class="a-cart"><a href=""><img src="./Assets/Image/cart.gif" alt="cart" class="cart-size"></a></li>
+      <nav class="nav-bar">
+        <ul class="ul-list">
+          <li>
+            <a href="./index.html"
+              ><img
+                src="./Assets/Image/yum-yum-logo.png"
+                alt="Yum-Yum-Logo"
+                class="yum-yum-navlogo"
+            /></a>
+          </li>
         </ul>
-    </nav>
+
+        <ul class="ul-list1 incative">
+          <li class="a-text"><a href="./index.html">Home</a></li>
+          <li class="a-text">
+            <a href="./Assets/HTML/explore.html">Explore</a>
+          </li>
+          <li class="a-text"><a href="./Assets/HTML/about.html">About</a></li>
+          <li class="a-text">
+            <a href="./Assets/HTML/loginregister.html">
+              <button class="button">
+                <span class="button-content">Login | Register</span>
+              </button>
+            </a>
+          </li>
+          <li class="a-cart">
+            <a href=""
+              ><img src="./Assets/Image/cart.gif" alt="cart" class="cart-size"
+            /></a>
+          </li>
+        </ul>
+        <span class="hamburger-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </nav>
     </header>
 
     <div class="banner">
-        <p class="banner-first-text">Yum Yum</p>
-        <p class="banner-second-text">A New Way To Order Food Online</p>
-        <div>
-            <form action="" class="search">
-            <i class="fa-solid fa-magnifying-glass fa-2x" id="icon"></i>
-            <input type="text" name="search" placeholder="Search for your favorite food!">
-            <input type="submit" name="submit" value="Search" class="button-search">
-            </form>
-        </div>
+      <p class="banner-first-text">Yum Yum</p>
+      <p class="banner-second-text">A New Way To Order Food Online</p>
+      <div>
+        <form action="" class="search">
+          <i class="fa-solid fa-magnifying-glass fa-2x" id="icon"></i>
+          <input
+            type="text"
+            name="search"
+            placeholder="Search for your favorite food!"
+          />
+          <input
+            type="submit"
+            name="submit"
+            value="Search"
+            class="button-search"
+          />
+        </form>
+      </div>
     </div>
 
     <!-- Restaurant Section -->
     <div class="restaurant">
-        <h1>Find Nearby Restaurants</h1>
-        <div class="restaurant-main">
-        <div class="restaurant-name">
+      <h1>Find Nearby Restaurants</h1>
+      <div class="restaurant-main">
+        <div class="restaurant-name"></div>
 
-        </div>
+        <div class="restaurant-name"></div>
 
-        <div class="restaurant-name">
-            
-        </div>
+        <div class="restaurant-name"></div>
 
-        <div class="restaurant-name">
-
-        </div>
-
-        <div class="restaurant-name">
-
-        </div>
-        
-    </div>
-
+        <div class="restaurant-name"></div>
+      </div>
     </div>
 
     <!-- Content -->
     <div class="badge-main">
-
-    <div class="badge">
-    <lord-icon
-    src="https://cdn.lordicon.com/surjmvno.json"
-    trigger="morph"
-    colors="primary:#ee66aa,secondary:#f49cc8"
-    style="width:150px;height:150px">
-    </lord-icon>
-    <h3>Easy To Order</h3>
-    <p class="badge-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolorem, dolorum sapiente reprehenderit cupiditate quos repudiandae error delectus recusandae veritatis. Quod pariatur quas corrupti consequatur rem inventore nobis, similique asperiores.</p>
-    </div>
-
-    <div class="badge">
+      <div class="badge">
         <lord-icon
-        src="https://cdn.lordicon.com/innjjrve.json"
-        trigger="hover"
-        colors="primary:#e8308c,secondary:#e8308c,tertiary:#f49cc8,quaternary:#e8308c,quinary:#2ca58d,senary:#f9c9c0,septenary:#ee66aa,octonary:#ebe6ef"
-        style="width:150px;height:150px">
+          src="https://cdn.lordicon.com/surjmvno.json"
+          trigger="morph"
+          colors="primary:#ee66aa,secondary:#f49cc8"
+          style="width: 150px; height: 150px"
+        >
         </lord-icon>
-    <h3>Fastest Delivery</h3>
-    <p class="badge-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolorem, dolorum sapiente reprehenderit cupiditate quos repudiandae error delectus recusandae veritatis. Quod pariatur quas corrupti consequatur rem inventore nobis, similique asperiores.</p>
-    </div>
+        <h3>Easy To Order</h3>
+        <p class="badge-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
+          dolorem, dolorum sapiente reprehenderit cupiditate quos repudiandae
+          error delectus recusandae veritatis. Quod pariatur quas corrupti
+          consequatur rem inventore nobis, similique asperiores.
+        </p>
+      </div>
 
-    <div class="badge">
+      <div class="badge">
         <lord-icon
-        src="https://cdn.lordicon.com/iwaotjbp.json"
-        trigger="hover"
-        colors="primary:#ee66aa,secondary:#ebe6ef"
-        style="width:150px;height:150px">
+          src="https://cdn.lordicon.com/innjjrve.json"
+          trigger="hover"
+          colors="primary:#e8308c,secondary:#e8308c,tertiary:#f49cc8,quaternary:#e8308c,quinary:#2ca58d,senary:#f9c9c0,septenary:#ee66aa,octonary:#ebe6ef"
+          style="width: 150px; height: 150px"
+        >
         </lord-icon>
-    <h3>Best Quality</h3>
-    <p class="badge-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae dolorem, dolorum sapiente reprehenderit cupiditate quos repudiandae error delectus recusandae veritatis. Quod pariatur quas corrupti consequatur rem inventore nobis, similique asperiores.</p>
-    </div>
+        <h3>Fastest Delivery</h3>
+        <p class="badge-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
+          dolorem, dolorum sapiente reprehenderit cupiditate quos repudiandae
+          error delectus recusandae veritatis. Quod pariatur quas corrupti
+          consequatur rem inventore nobis, similique asperiores.
+        </p>
+      </div>
 
+      <div class="badge">
+        <lord-icon
+          src="https://cdn.lordicon.com/iwaotjbp.json"
+          trigger="hover"
+          colors="primary:#ee66aa,secondary:#ebe6ef"
+          style="width: 150px; height: 150px"
+        >
+        </lord-icon>
+        <h3>Best Quality</h3>
+        <p class="badge-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
+          dolorem, dolorum sapiente reprehenderit cupiditate quos repudiandae
+          error delectus recusandae veritatis. Quod pariatur quas corrupti
+          consequatur rem inventore nobis, similique asperiores.
+        </p>
+      </div>
     </div>
 
     <!-- FAQ -->
     <div class="faq">
-        <div class="faq-main">
-            
-            <div class="accordion-wrapper">
-                <p class="faq-heading">FAQs</p>
+      <div class="faq-main">
+        <div class="accordion-wrapper">
+          <p class="faq-heading">FAQs</p>
 
-                <button class="accordion main-acc one">Ordering and Payment</button>
-                <div class="panel main-panel">
-                  <button class="accordion sub-acc">How do I place an order?</button>
-                  <div class="panel sub-panel">
-                    <p>You can place an order by browsing our product offerings and selecting the items you wish to purchase. Once you have selected all the items, you can proceed to checkout, where you will enter your shipping and payment information to complete the order.</p>
-                  </div>
-                  <button class="accordion sub-acc">What payment methods do you accept?</button>
-                  <div class="panel sub-panel">
-                    <p>We accept a wide range of payment methods, including credit and debit cards, PayPal, and bank transfers.</p>
-                  </div>
-                  <button class="accordion sub-acc">How do I change or update my order?</button>
-                  <div class="panel sub-panel">
-                    <p>If you need to change or update your order, please contact our customer service team as soon as possible. They will assist you with any necessary changes.</p>
-                  </div>
-                  <button class="accordion sub-acc">How do I cancel an order?</button>
-                  <div class="panel sub-panel">
-                    <p>To cancel an order, please contact our customer service team as soon as possible. They will assist you with cancelling the order and processing a refund, if applicable.</p>
-                  </div>
-                </div>
-              
-                <button class="accordion main-acc two">Shipping and Delivery</button>
-                <div class="panel main-panel">
-                  <button class="accordion sub-acc">How long does shipping take?</button>
-                  <div class="panel sub-panel">
-                    <p>Shipping time will depend on the shipping method you choose and your location. We offer a range of shipping options, from standard to expedited, to suit your needs.</p>
-                  </div>
-                  <button class="accordion sub-acc">Can I track my order?</button>
-                  <div class="panel sub-panel">
-                    <p>Yes, you will receive a tracking number once your order has been shipped, and you can track the status of your delivery online.</p>
-                  </div>
-                  <button class="accordion sub-acc">Do you offer free shipping?</button>
-                  <div class="panel sub-panel">
-                    <p>We may offer free shipping promotions from time to time. Please check our shipping information page for the latest information on shipping and delivery.</p>
-                  </div>
-                  <button class="accordion sub-acc">Do you ship internationally?</button>
-                  <div class="panel sub-panel">
-                    <p>Yes, we ship to many countries around the world. You can check our shipping information page for a complete list of countries we currently serve.</p>
-                  </div>
-                </div>
-              
-                <button class="accordion main-acc three">Returns and Exchanges</button>
-                <div class="panel main-panel">
-                  <button class="accordion sub-acc">How do I return or exchange an item?</button>
-                  <div class="panel sub-panel">
-                    <p>To return or exchange an item, please contact our customer service team for assistance. We have a detailed return policy that you can find on our website.</p>
-                  </div>
-              
-                  <button class="accordion sub-acc">What is your return policy?</button>
-                  <div class="panel sub-panel">
-                    <p>Our return policy is designed to provide a simple and convenient return process for our customers. We accept returns for most products within a certain time frame, provided the item is in its original condition. For more details, please see our return policy on our website.</p>
-                  </div>
-              
-                </div>
-              
-                <button class="accordion main-acc four">Customer Support</button>
-                <div class="panel main-panel">
-                  <button class="accordion sub-acc">How do I get assistance with an order or a product?</button>
-                  <div class="panel sub-panel">
-                    <p>If you need assistance with an order or a product, please reach out to our customer service team. You can contact us via email at support@ecomstore.com or by phone at +1 (555) 555-5555. We are available to assist you during our business hours, which are Monday-Friday from 9:00am to 5:00pm EST.</p>
-                  </div>
-              
-                  <button class="accordion sub-acc">What are your business hours for customer support?</button>
-                  <div class="panel sub-panel">
-                    <p>Our business hours for customer support are Monday-Friday from 9:00am to 5:00pm EST.</p>
-                  </div>
-              
-                  <button class="accordion sub-acc">How do I reach customer support if I have an issue with my order?</button>
-                  <div class="panel sub-panel">
-                    <p>If you have an issue with your order, please reach out to our customer service team. You can contact us via email at support@ecomstore.com or by phone at +1 (555) 555-5555. We are available to assist you during our business hours, which are Monday-Friday from 9:00am to 5:00pm EST.</p>
-                  </div>
-              
-                </div>
-              
-                <button class="accordion main-acc five">Site Security and Privacy</button>
-                <div class="panel main-panel">
-                  <button class="accordion sub-acc">Is shopping on your site secure?</button>
-                  <div class="panel sub-panel">
-                    <p>Yes, shopping on our site is secure. We use the latest in encryption technology and security protocols to protect your personal and financial information.</p>
-                  </div>
-              
-                  <button class="accordion sub-acc">How do I know if my personal information is protected?</button>
-                  <div class="panel sub-panel">
-                    <p>We take the protection of your personal information very seriously, and we have strict privacy policies in place to ensure your information is secure. You can find more information on our privacy policies on our website.</p>
-                  </div>
-                </div>
-              
-                <button class="accordion main-acc six">Account Management</button>
-                <div class="panel main-panel">
-                  <button class="accordion sub-acc">How do I create an account?</button>
-                  <div class="panel sub-panel">
-                    <p>To create an account, simply click the "Create Account" button on our website and follow the prompts to enter your information. This will allow you to save your information for faster checkout, view your order history, and more.</p>
-                  </div>
-              
-                  <button class="accordion sub-acc">How do I update my account information?</button>
-                  <div class="panel sub-panel">
-                    <p>To update your account information, simply log in to your account and click the "My Account" button. From there, you can update your personal information, shipping and billing addresses, and more.</p>
-                  </div>
-              
-                  <button class="accordion sub-acc">How do I reset my password?</button>
-                  <div class="panel sub-panel">
-                    <p>To reset your password, click the "Forgot Password" link on the log in page. Then, enter the email address associated with your account, and follow the prompts to reset your password.</p>
-                  </div>
-              
-                </div>
-              </div>
+          <button class="accordion main-acc one">Ordering and Payment</button>
+          <div class="panel main-panel">
+            <button class="accordion sub-acc">How do I place an order?</button>
+            <div class="panel sub-panel">
+              <p>
+                You can place an order by browsing our product offerings and
+                selecting the items you wish to purchase. Once you have selected
+                all the items, you can proceed to checkout, where you will enter
+                your shipping and payment information to complete the order.
+              </p>
+            </div>
+            <button class="accordion sub-acc">
+              What payment methods do you accept?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                We accept a wide range of payment methods, including credit and
+                debit cards, PayPal, and bank transfers.
+              </p>
+            </div>
+            <button class="accordion sub-acc">
+              How do I change or update my order?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                If you need to change or update your order, please contact our
+                customer service team as soon as possible. They will assist you
+                with any necessary changes.
+              </p>
+            </div>
+            <button class="accordion sub-acc">How do I cancel an order?</button>
+            <div class="panel sub-panel">
+              <p>
+                To cancel an order, please contact our customer service team as
+                soon as possible. They will assist you with cancelling the order
+                and processing a refund, if applicable.
+              </p>
+            </div>
+          </div>
 
+          <button class="accordion main-acc two">Shipping and Delivery</button>
+          <div class="panel main-panel">
+            <button class="accordion sub-acc">
+              How long does shipping take?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                Shipping time will depend on the shipping method you choose and
+                your location. We offer a range of shipping options, from
+                standard to expedited, to suit your needs.
+              </p>
+            </div>
+            <button class="accordion sub-acc">Can I track my order?</button>
+            <div class="panel sub-panel">
+              <p>
+                Yes, you will receive a tracking number once your order has been
+                shipped, and you can track the status of your delivery online.
+              </p>
+            </div>
+            <button class="accordion sub-acc">
+              Do you offer free shipping?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                We may offer free shipping promotions from time to time. Please
+                check our shipping information page for the latest information
+                on shipping and delivery.
+              </p>
+            </div>
+            <button class="accordion sub-acc">
+              Do you ship internationally?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                Yes, we ship to many countries around the world. You can check
+                our shipping information page for a complete list of countries
+                we currently serve.
+              </p>
+            </div>
+          </div>
+
+          <button class="accordion main-acc three">
+            Returns and Exchanges
+          </button>
+          <div class="panel main-panel">
+            <button class="accordion sub-acc">
+              How do I return or exchange an item?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                To return or exchange an item, please contact our customer
+                service team for assistance. We have a detailed return policy
+                that you can find on our website.
+              </p>
+            </div>
+
+            <button class="accordion sub-acc">
+              What is your return policy?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                Our return policy is designed to provide a simple and convenient
+                return process for our customers. We accept returns for most
+                products within a certain time frame, provided the item is in
+                its original condition. For more details, please see our return
+                policy on our website.
+              </p>
+            </div>
+          </div>
+
+          <button class="accordion main-acc four">Customer Support</button>
+          <div class="panel main-panel">
+            <button class="accordion sub-acc">
+              How do I get assistance with an order or a product?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                If you need assistance with an order or a product, please reach
+                out to our customer service team. You can contact us via email
+                at support@ecomstore.com or by phone at +1 (555) 555-5555. We
+                are available to assist you during our business hours, which are
+                Monday-Friday from 9:00am to 5:00pm EST.
+              </p>
+            </div>
+
+            <button class="accordion sub-acc">
+              What are your business hours for customer support?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                Our business hours for customer support are Monday-Friday from
+                9:00am to 5:00pm EST.
+              </p>
+            </div>
+
+            <button class="accordion sub-acc">
+              How do I reach customer support if I have an issue with my order?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                If you have an issue with your order, please reach out to our
+                customer service team. You can contact us via email at
+                support@ecomstore.com or by phone at +1 (555) 555-5555. We are
+                available to assist you during our business hours, which are
+                Monday-Friday from 9:00am to 5:00pm EST.
+              </p>
+            </div>
+          </div>
+
+          <button class="accordion main-acc five">
+            Site Security and Privacy
+          </button>
+          <div class="panel main-panel">
+            <button class="accordion sub-acc">
+              Is shopping on your site secure?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                Yes, shopping on our site is secure. We use the latest in
+                encryption technology and security protocols to protect your
+                personal and financial information.
+              </p>
+            </div>
+
+            <button class="accordion sub-acc">
+              How do I know if my personal information is protected?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                We take the protection of your personal information very
+                seriously, and we have strict privacy policies in place to
+                ensure your information is secure. You can find more information
+                on our privacy policies on our website.
+              </p>
+            </div>
+          </div>
+
+          <button class="accordion main-acc six">Account Management</button>
+          <div class="panel main-panel">
+            <button class="accordion sub-acc">
+              How do I create an account?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                To create an account, simply click the "Create Account" button
+                on our website and follow the prompts to enter your information.
+                This will allow you to save your information for faster
+                checkout, view your order history, and more.
+              </p>
+            </div>
+
+            <button class="accordion sub-acc">
+              How do I update my account information?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                To update your account information, simply log in to your
+                account and click the "My Account" button. From there, you can
+                update your personal information, shipping and billing
+                addresses, and more.
+              </p>
+            </div>
+
+            <button class="accordion sub-acc">
+              How do I reset my password?
+            </button>
+            <div class="panel sub-panel">
+              <p>
+                To reset your password, click the "Forgot Password" link on the
+                log in page. Then, enter the email address associated with your
+                account, and follow the prompts to reset your password.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Footer -->
     <footer>
-        <div class="footer-main">
-
-            <p>Footer</p>
-
-        </div>
+      <div class="footer-main">
+        <p>Footer</p>
+      </div>
     </footer>
 
     <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
     <script src="./Assets/JS/script.js"></script>
-</body>
+  </body>
 </html>
