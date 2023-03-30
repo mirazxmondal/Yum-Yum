@@ -196,12 +196,18 @@ h1 {
 /* Content */
 .badge-main {
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 50px;
     text-align: center;
 }
+
+@media (max-width: 767px) {
+    .badge-main {
+        flex-direction: column;
+    }
+  }
 
 /* FAQ Section */
 .faq-heading {
@@ -328,3 +334,9 @@ h1 {
     }
   }
   
+/* Footer */
+.footer-main {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
