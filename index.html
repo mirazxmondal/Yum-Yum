@@ -4,13 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./Assets/CSS/style.css">
     <link rel="icon" type="image/x-icon" href="./Assets/Image/favicon.png">
     <title> Yum Yum - Home </title>
 </head>
 <body>
-    <p>Yum Yum</p>
 
+    <!-- Navbar -->
+    <header>
+    <nav>
+        <ul>
+        <li><a href="./index.html"><img src="./Assets/Image/yum-yum-logo.png" alt="Yum-Yum-Logo" class="yum-yum-navlogo"></a></li>
+        <li class="a-text"><a href="./index.html">Home</a></li>
+        <li class="a-text"><a href="./Assets/HTML/explore.html">Explore</a></li>
+        <li class="a-text"><a href="./Assets/HTML/about.html">About</a></li>
+        <li class="a-text">
+            <a href="./Assets/HTML/loginregister.html">
+                <button class="button">
+                <span class="button-content">Login | Register</span>
+                </button>
+            </a>
+        </li>
+        <li class="a-cart"><a href=""><img src="./Assets/Image/cart.gif" alt="cart" class="cart-size"></a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <div class="banner">
+        <p class="banner-first-text">Yum Yum</p>
+        <p class="banner-second-text">A New Way To Order Food Online</p>
+        <div>
+            <form action="" class="search">
+            <i class="fa-solid fa-magnifying-glass fa-2x" id="icon"></i>
+            <input type="text" name="search" placeholder="Search for your favorite food!">
+            <input type="submit" name="submit" value="Search" class="button-search">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-main">
+
+        </div>
+    </footer>
 
     <script src="./Assets/JS/script.js"></script>
 </body>

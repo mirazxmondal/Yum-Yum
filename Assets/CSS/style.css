@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.yum-yum-navlogo {
+    height: 110px;
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff4757
+}
+
+.a-text {
+    padding-left: 120px;
+    padding-right: 70px;
+    font-size: x-large;
+    font-weight: 500;
+    margin-top: 45px;
+    
+}
+
+.a-cart {
+    margin-top: 45px;
+    position: absolute;
+    right: 5%;
+}
+
+.cart-size {
+    height: 60px;
+    width: 70px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+}
+
+/* Button-animation */
+.button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #ff6b81;
+    background-size: 400%;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(90deg, rgba(255,71,87,1) 100%, rgba(255,71,87,1) 100%);
+    transition: all 0.475s;
+  }
+
+/* Button-animation */
+
+/* Main Page */
+.banner {
+    text-align: center;
+    background-image: url(../Image/banner-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.banner-first-text {
+    margin: auto;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-second-text {
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+}
+
+.search {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#icon {
+    color: #ff6b81;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+input[type='text']
+{
+    width: 40%;
+    height: 50px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-search {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+
+.button-search:hover {
+    background-color: #ff4757;
+    color: white;
+}
