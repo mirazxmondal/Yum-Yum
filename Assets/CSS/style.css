@@ -19,13 +19,13 @@ body {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #FC8EAC;
+    background: #ff4757;
     width: 1rem;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #ff4757;
+    background: #FC8EAC;
   }
   
 
@@ -117,7 +117,7 @@ ul {
 }
 
 .banner-first-text {
-    color: #ff6b81;
+    color: #ff4757;
     margin: auto;
     font-size: 70px;
     text-align: center;
@@ -126,7 +126,7 @@ ul {
 }
 
 .banner-second-text {
-    color: #ff6b81;
+    color: #ff4757;
     margin: auto;
     margin-bottom: 20px;
     font-size: 30px;
@@ -191,6 +191,15 @@ h1 {
     height: 220px;
     width: 220px;
     border: solid 5px black;
+}
+
+@media (max-width: 767px) {
+  .restaurant-main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem; 
+  }
 }
 
 /* Content */
@@ -339,4 +348,12 @@ h1 {
     height: 100%;
     width: 100%;
     background-color: #000000;
+}
+
+/* Hamburger */
+@media (max-width: 767px) {
+  .yum-yum-navlogo {
+    height: 100px;
+    width: 120px;
+  }
 }
