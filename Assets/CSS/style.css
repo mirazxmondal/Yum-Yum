@@ -30,6 +30,14 @@ body {
   
 
 /* Navbar */
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 .yum-yum-navlogo {
     height: 110px;
     width: 150px;
@@ -104,6 +112,20 @@ ul {
     transition: all 0.475s;
   }
 
+/* .container {
+  display: none;
+} */
+
+  @media (max-width: 767px) {
+    header {
+      position: relative;
+    }
+    
+    .cart-size {
+      display: none;
+    }
+  }
+
 
 /* Main Page */
 .banner {
@@ -112,8 +134,8 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .banner-first-text {
@@ -351,7 +373,7 @@ h1 {
 .footer-main {
     height: 100%;
     width: 100%;
-    background-color: #000000;
+
 }
 
 /* Hamburger */
@@ -360,4 +382,27 @@ h1 {
     height: 100px;
     width: 120px;
   }
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
 }
