@@ -212,6 +212,10 @@ h1 {
     text-align: center;
 }
 
+.badge-text {
+  font-size: 18px;
+}
+
 @media (max-width: 767px) {
     .badge-main {
         flex-direction: column;
