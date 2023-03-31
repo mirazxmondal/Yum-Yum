@@ -235,7 +235,7 @@ h1 {
 }
 
 .badge-text {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 @media (max-width: 767px) {
@@ -377,7 +377,11 @@ h1 {
     margin-top: 20px;
     margin-right: 10%;
     margin-left: 10%;
-    border: solid black 2px;
+
+}
+
+.p-social, .p-important, .p-contact, .p-navlink {
+  font-weight: 500;
 }
 
 .copyright {
