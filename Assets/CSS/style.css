@@ -7,8 +7,8 @@ body {
 /* Custom scrollbar  */
 /* width */
 ::-webkit-scrollbar {
-    width: 0.8rem;
-    height: 1rem;
+    width: 0.6rem;
+    height: 0.6rem;
   }
   
   /* Track */
@@ -27,20 +27,20 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background: #FC8EAC;
   }
-  
 
 /* Navbar */
 header {
   background-color: white;
   position: sticky;
   top: 0;
-  width: 100%;
   z-index: 1000;
+  border-bottom: solid 2px #FC8EAC;
 }
 
 .yum-yum-navlogo {
-    height: 110px;
-    width: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 55px;
 }
 
 a {
@@ -49,28 +49,36 @@ a {
 }
 
 .a-text {
-    padding-left: 115px;
-    padding-right: 70px;
-    font-size: xx-large;
-    font-weight: 500;
-    margin-top: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: large;
 }
 
 .a-cart {
-    margin-top: 30px;
+    margin-top: 10px;
     position: absolute;
     right: 5%;
 }
 
 .cart-size {
-    height: 60px;
-    width: 70px;
+    height: 40px;
+    width: 50px;
+}
+
+.a-button {
+  margin-top: 10px;
+}
+
+.nav-head {
+  display: flex;
+  margin-left: 780px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     margin: 0%;
 }
 
@@ -78,8 +86,8 @@ ul {
 .button {
     position: relative;
     overflow: hidden;
-    height: 3rem;
-    padding: 0 2rem;
+    height: 2.5rem;
+    padding: 0 1rem;
     border-radius: 1.5rem;
     background: #FC8EAC;
     background-size: 400%;
@@ -93,7 +101,7 @@ ul {
   
   .button-content {
     font-weight: 500;
-    font-size: large;
+    font-size: small;
     position: relative;
     z-index: 1;
   }
@@ -111,18 +119,24 @@ ul {
     background: linear-gradient(90deg, rgba(255,71,87,1) 100%, rgba(255,71,87,1) 100%);
     transition: all 0.475s;
   }
-
-/* .container {
-  display: none;
-} */
-
+  
   @media (max-width: 767px) {
     header {
       position: relative;
     }
-    
+
+    .nav-head {
+      display: flex;
+      margin: auto;
+
+    }
+
     .cart-size {
       display: none;
+    }
+
+    .a-button {
+      margin-right: 20px;
     }
   }
 
@@ -382,6 +396,10 @@ h1 {
 
 .p-social, .p-important, .p-contact, .p-navlink {
   font-weight: 500;
+}
+
+.li-social, .li-important, .li-contact, .li-nav {
+  font-weight: 400;
 }
 
 .copyright {
