@@ -40,7 +40,7 @@ header {
 .yum-yum-navlogo {
   margin-top: 5px;
   margin-bottom: 5px;
-  height: 55px;
+  height: 57px;
 }
 
 a {
@@ -49,14 +49,14 @@ a {
 }
 
 .a-text {
-  margin-top: 20px;
+  margin-top: 25px;
   margin-left: 30px;
   font-weight: 500;
   font-size: large;
 }
 
 .a-cart {
-    margin-top: 10px;
+    margin-top: 15px;
     position: absolute;
     right: 5%;
 }
@@ -67,7 +67,7 @@ a {
 }
 
 .a-button {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .nav-head {

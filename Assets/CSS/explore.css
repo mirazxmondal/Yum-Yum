@@ -139,16 +139,68 @@ ul {
       margin-right: 20px;
     }
   }
+/* Explore Section */
+main {
+	padding: 20px;
+  text-align: center;
+}
+
+.search {
+	margin-bottom: 20px;
+}
+
+#search-input {
+	padding: 15px;
+  font-size: medium;
+	width: 60%;
+	border: solid #ff6b81 2px;
+	border-radius: 5px;
+}
+
+#search-btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #ff6b81;
+  color: white;
+  cursor: pointer;
+}
+
+#search-btn:hover {
+  background-color: #ff4757;
+  color: white;
+}
+
+.recipe-card {
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #ddd;
+}
+
+.recipe-card img {
+	max-width: 100%;
+}
+
+.recipe-card h3 {
+	margin-top: 0;
+}
+
+.recipe-card p {
+	margin: 10px 0;
+}
+
 
 /* Footer */
 .footer-main {
     display: flex !important;
     flex-wrap: wrap !important;
     justify-content: space-between;
-    margin-top: 20px;
     margin-right: 10%;
     margin-left: 10%;
-
+    margin-top: 25%;
 }
 
 .p-social, .p-important, .p-contact, .p-navlink {
