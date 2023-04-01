@@ -364,7 +364,7 @@ h1 {
 
 .sub-panel p {
   padding: auto;
-  margin: 10px 20px;
+  width: 70%;
   font-family: sans-serif;
 }
 
