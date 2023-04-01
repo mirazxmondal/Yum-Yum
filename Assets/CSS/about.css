@@ -140,6 +140,94 @@ ul {
     }
   }
 
+  /* About Page */
+  .card {
+    max-width: 300px;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 2px solid #FC8EAC;
+  }
+  
+  .content {
+    padding: 1.1rem;
+  }
+  
+  .image {
+    background: lightblue url("../Image/blog1.jpg") no-repeat fixed center;
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+  }
+  
+  .title {
+    color: #111827;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+  
+  .desc {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: #ff789c;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .action span {
+    transition: .3s ease;
+  }
+  
+  .action:hover span {
+    transform: translateX(4px);
+  }
+
+  h1 {
+    text-align: center;
+    color: #ff4757;
+  }
+  
+  .card-main1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+
+  .card-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+
+  @media (max-width: 767px) {
+    .card-main, .card-main1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
 /* Footer */
 .footer-main {
     display: flex !important;
@@ -170,6 +258,10 @@ ul {
   .yum-yum-navlogo {
     height: 100px;
     width: 120px;
+  }
+
+  .a-button {
+    display: none;
   }
 }
 
