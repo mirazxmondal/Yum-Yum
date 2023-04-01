@@ -147,6 +147,10 @@ main {
   text-align: center;
 }
 
+h1 {
+  color: #ff4757;
+}
+
 .search {
 	margin-bottom: 20px;
 }
