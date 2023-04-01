@@ -247,6 +247,14 @@ ul {
   font-weight: 400;
 }
 
+.badge-red {
+  margin-left: 5px;
+  color: white;
+  background-color: #ff4757;
+  border-radius: 30%;
+  padding: 3px;
+}
+
 .copyright {
   text-align: center;
   font-weight: 500;

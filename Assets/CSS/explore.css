@@ -219,6 +219,14 @@ main {
   font-size: 20px;
 }
 
+.badge-red {
+  margin-left: 5px;
+  color: white;
+  background-color: #ff4757;
+  border-radius: 30%;
+  padding: 3px;
+}
+
 /* Hamburger */
 @media (max-width: 767px) {
   .yum-yum-navlogo {
