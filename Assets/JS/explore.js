@@ -1,8 +1,8 @@
 console.log("Explore-Page")
 
-const API_KEY = 'c48006e5fa42c06f4741bcb41d2628aa';
+const API_KEY = 'b687c990f5e635ba4fac69673e78e56f';
 const APP_ID = '0ac89faf';
-const BASE_URL = `https://api.edamam.com/search?app_id=0ac89faf&app_key=c48006e5fa42c06f4741bcb41d2628aa`;
+const BASE_URL = `https://api.edamam.com/search?app_id=0ac89faf&app_key=b687c990f5e635ba4fac69673e78e56f`;
 
 const searchBtn = document.getElementById('search-btn');
 const searchInput = document.getElementById('search-input');
