@@ -38,3 +38,8 @@ function createRecipeCard(recipe) {
     `;
     return recipeCard;
 }
+
+
+function myFunction() {
+    document.getElementById("content").innerHTML = "";
+}
