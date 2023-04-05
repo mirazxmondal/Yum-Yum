@@ -148,8 +148,8 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 220px;
+    padding-bottom: 220px;
 }
 
 .banner-first-text {
@@ -248,8 +248,15 @@ h1 {
     text-align: center;
 }
 
+.badge-middle {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
 .badge-text {
+  text-align: justify;
   font-size: 15px;
+  font-weight: 400;
 }
 
 @media (max-width: 767px) {
