@@ -264,13 +264,23 @@ ul {
 /* Hamburger */
 @media (max-width: 767px) {
   .yum-yum-navlogo {
-    height: 100px;
-    width: 120px;
+    height: 80px;
+    width: 160px;
+  }
+
+  .nav-head {
+    display: flex;
+    text-align: center;
   }
 
   .a-button {
     display: none;
   }
+
+      /* Footer */
+      .footer-main {
+        margin: 5px;
+      }
 }
 
 /* .container {

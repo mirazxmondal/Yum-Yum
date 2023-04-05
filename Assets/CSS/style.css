@@ -291,6 +291,10 @@ h1 {
   font-size: 20px;
 }
 
+.main-panel {
+  width: 80%;
+}
+
 .main-acc {
   text-align: center;
   border: 3px solid black;
@@ -381,9 +385,6 @@ h1 {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
-.main-panel {
-  width: 80%;
-}
 
   @media (max-width: 767px) {
     /* .bar {
@@ -429,11 +430,47 @@ h1 {
 
 /* Hamburger */
 @media (max-width: 767px) {
+  /* Header */
   .yum-yum-navlogo {
-    height: 100px;
-    width: 120px;
+    height: 80px;
+    width: 160px;
   }
+
+  .nav-head {
+    display: flex;
+    text-align: center;
+  }
+
+  .a-button {
+    display: none;
+  }
+  
+  /* Main */
+  input[type='text']
+  {
+    width: 60%;
+    height: 50px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+
+  /* FAQ */
+  .accordion {
+    width: 100%;
+  }
+
+  .main-panel {
+    width: 98%;
+  }
+
+    /* Footer */
+    .footer-main {
+      margin: 5px;
+    }
+  
 }
+
 
 /* .container {
   display: inline-block;
