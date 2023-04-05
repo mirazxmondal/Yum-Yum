@@ -189,6 +189,10 @@ ul {
     border-radius: 4px;
   }
   
+  .action:hover {
+    background-color: #ff4757;
+  }
+
   .action span {
     transition: .3s ease;
   }
