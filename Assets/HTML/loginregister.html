@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="../Image/favicon.png">
-  <link rel="stylesheet" href="../CSS/explore.css">
+  <link rel="stylesheet" href="../CSS/loginregister.css">
   <title>Login | Sign up</title>
 </head>
 <body>
@@ -21,8 +21,8 @@
                 <li class="a-text"><a href="./about.html">About</a></li> &nbsp;&nbsp;&nbsp;&nbsp;
                 <li class="a-button">
                     <a href="./loginregister.html">
-                        <button class="button">
-                        <span class="button-content">Login | Register</span>
+                        <button class="button1">
+                        <span class="button-content1">Login | Register</span>
                         </button>
                     </a> 
                 </li>
@@ -36,6 +36,55 @@
               <div class="bar3"></div>
             </div> -->
             </header>
+
+  <!-- Main -->
+<div class="main-container">
+    <h2>Login | Register</h2>
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form action="#">
+          <h1>Create Account</h1>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Location" />
+          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Confirm Password" />
+
+            <div class="food">
+            <input type="radio" id="sfood" name="fav_language" value="South Indian Food">
+            <label for="sfood">South Indian Food</label><br>
+            <input type="radio" id="nfood" name="fav_language" value="North Indian Food">
+            <label for="nfood">North Indian Food</label>
+            </div>
+
+          <button>Sign Up</button>
+        </form>
+      </div>
+      <div class="form-container sign-in-container">
+        <form action="#">
+          <h1>Sign in</h1>
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <a href="#" class="forgot-anchor">Forgot your password?</a>
+          <button>Sign In</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Welcome Back!</h1>
+            <p class="form-p">To keep connected with us please login with your personal info</p>
+            <button class="ghost" id="signIn">Sign In</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>Hello, Friend!</h1>
+            <p class="form-p">Enter your personal details and start journey with us</p>
+            <button class="ghost" id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
 
     <!-- Footer -->
     <footer>
