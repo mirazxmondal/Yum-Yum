@@ -41,5 +41,5 @@ function createRecipeCard(recipe) {
 
 
 function myFunction() {
-    document.getElementById("content").innerHTML = "";
+    document.getElementById("badge-main").innerHTML = "";
 }

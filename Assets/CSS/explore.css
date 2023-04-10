@@ -198,6 +198,33 @@ h1 {
 	margin: 10px 0;
 }
 
+/* Content */
+#badge-main {
+  display: flex;
+  flex-direction: row;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.badge-middle {
+margin-right: 5%;
+margin-left: 5%;
+}
+
+.badge-text {
+text-align: justify;
+font-size: 15px;
+font-weight: 400;
+}
+
+@media (max-width: 767px) {
+  #badge-main {
+      flex-direction: column;
+  }
+}
 
 /* Footer */
 .footer-main {
