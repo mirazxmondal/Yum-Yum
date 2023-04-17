@@ -238,6 +238,12 @@ h1 {
   }
 }
 
+hr {
+  margin-top: 53px;
+  height: 1px; 
+  width: 80%;
+}
+
 /* Footer */
 .footer-main {
   display: flex !important;
