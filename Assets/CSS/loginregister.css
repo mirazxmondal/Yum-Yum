@@ -111,7 +111,7 @@ ul {
   z-index: 1;
 }
 
-.button::before {
+.button1::before {
   content: "";
   position: absolute;
   top: 0;
@@ -197,11 +197,11 @@ span {
   transition: transform 80ms ease-in;
 }
 
-button:active {
+.button-main:active {
   transform: scale(0.95);
 }
 
-button:focus {
+.button-main:focus {
   outline: none;
 }
 
