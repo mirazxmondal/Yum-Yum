@@ -62,7 +62,8 @@ a {
 
 .a-cart {
   margin-top: 15px;
-  position: static;
+  position: absolute;
+  right: 5%;
 }
 
 .cart-size {
@@ -110,7 +111,7 @@ ul {
   z-index: 1;
 }
 
-.button1::before {
+.button::before {
   content: "";
   position: absolute;
   top: 0;
@@ -183,7 +184,7 @@ span {
   margin: 15px 0;
 }
 
-button {
+.button-main {
   border-radius: 20px;
   border: 1px solid #ff4b2b;
   background-color: #ff4b2b;
