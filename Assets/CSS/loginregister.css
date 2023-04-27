@@ -62,8 +62,7 @@ a {
 
 .a-cart {
   margin-top: 15px;
-  position: absolute;
-  right: 5%;
+  position: static;
 }
 
 .cart-size {
