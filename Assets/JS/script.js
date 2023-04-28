@@ -1,6 +1,10 @@
-console.log("Landing-Page")
-
 // FAQs Section
+/* This code is adding event listeners to all elements with the class "accordion" and toggling the
+class "active" on click. It then gets the parent element and the next sibling element of the clicked
+element and sets the maximum height of the sibling element to its scroll height if it is not already
+set, and null if it is already set. It also adjusts the maximum height of the parent element
+accordingly. This code is used to create an accordion-style FAQ section where only one question can
+be expanded at a time. */
 var acc = document.getElementsByClassName("accordion");
 var i;
 

@@ -1,5 +1,3 @@
-console.log("Login/Register-Page")
-
 // Form Validation
 
 

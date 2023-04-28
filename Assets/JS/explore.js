@@ -1,5 +1,11 @@
-console.log("Explore-Page")
-
+/**
+ * This is a JavaScript function that fetches recipes from the Edamam API based on a user's search
+ * query and displays them on a webpage.
+ * @param recipe - An object containing information about a recipe, including its label, image,
+ * calories, ingredients, and URL.
+ * @returns The code is returning a recipe search application that fetches recipes from the Edamam API
+ * based on user input, creates recipe cards for each recipe, and displays them on the webpage.
+ */
 const API_KEY = 'b687c990f5e635ba4fac69673e78e56f';
 const APP_ID = '0ac89faf';
 const BASE_URL = `https://api.edamam.com/search?app_id=0ac89faf&app_key=b687c990f5e635ba4fac69673e78e56f`;
