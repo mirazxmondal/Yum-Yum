@@ -134,7 +134,7 @@ ul {
   }
 
   .cart-size {
-    display: none;
+
   }
 
   .a-button {
@@ -145,8 +145,8 @@ ul {
 /* Main Page */
 .banner {
   text-align: center;
-  /* background-image: url(../Image/banner-image.jpg); */
-  background-image: url(../Image/banner-image1.avif);
+  background-image: url(../Image/banner-image.jpg);
+  /* background-image: url(../Image/banner-image1.avif); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -454,7 +454,7 @@ hr {
   }
 
   .a-button {
-    display: none;
+
   }
 
   /* Main */
