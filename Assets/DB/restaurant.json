@@ -1,0 +1,34 @@
+[
+  {
+    "restaurant": {
+      "img": "Assets/Image/Restaurant-banner/wow-momo-logo.jpg",
+      "restaurant name": "WOW MOMO",
+      "restaurant info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "button": "Restaurant Page"
+    }
+  },
+  {
+    "restaurant": {
+      "img": "null",
+      "restaurant name": "WOW MOMO",
+      "restaurant info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "button": "Restaurant Page"
+    }
+  },
+  {
+    "restaurant": {
+      "img": "null",
+      "restaurant name": "WOW MOMO",
+      "restaurant info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "button": "Restaurant Page"
+    }
+  },
+  {
+    "restaurant": {
+      "img": "null",
+      "restaurant name": "WOW MOMO",
+      "restaurant info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "button": "Restaurant Page"
+    }
+  }
+]

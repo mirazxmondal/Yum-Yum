@@ -24,7 +24,86 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-// Hamburger 
+// Hamburger
 function myFunction(x) {
   x.classList.toggle("change");
 }
+
+// Find Nearby Cuisines Section
+const restaurantsData = [
+  {
+    restaurant: {
+      img: "Assets/Image/Restaurant-banner/wow-momo-logo.jpg",
+      "restaurant name": "WOW MOMO",
+      "restaurant info":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      button: "Restaurant Page",
+    },
+  },
+  {
+    restaurant: {
+      img: "null",
+      "restaurant name": "WOW MOMO",
+      "restaurant info":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      button: "Restaurant Page",
+    },
+  },
+  {
+    restaurant: {
+      img: "null",
+      "restaurant name": "WOW MOMO",
+      "restaurant info":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      button: "Restaurant Page",
+    },
+  },
+  {
+    restaurant: {
+      img: "null",
+      "restaurant name": "WOW MOMO",
+      "restaurant info":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      button: "Restaurant Page",
+    },
+  },
+];
+
+// Get the container element for the restaurants
+const container = document.querySelector("#restaurant-container");
+
+// Loop through the restaurants data and create HTML elements for each restaurant
+restaurantsData.forEach((restaurant) => {
+  // Create a card element for the restaurant
+  const card = document.createElement("div");
+  card.classList.add("restaurant-card");
+
+  // Create an image element for the restaurant
+  const img = document.createElement("img");
+  img.classList.add("restaurant-img");
+  img.src = restaurant.restaurant.img;
+
+  // Create a name element for the restaurant
+  const name = document.createElement("h2");
+  name.classList.add("restaurant-name");
+  name.textContent = restaurant.restaurant["restaurant name"];
+
+  // Create an info element for the restaurant
+  const info = document.createElement("p");
+  info.classList.add("restaurant-info");
+  info.textContent = restaurant.restaurant["restaurant info"];
+
+  // Create a button element for the restaurant
+  const button = document.createElement("button");
+  button.classList.add("restaurant-button");
+  button.textContent = restaurant.restaurant.button;
+
+  // Append the elements to the card element
+  card.appendChild(img);
+  card.appendChild(name);
+  card.appendChild(info);
+  card.appendChild(button);
+
+  // Append the card element to the container
+  container.appendChild(card);
+});
