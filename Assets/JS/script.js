@@ -33,37 +33,37 @@ function myFunction(x) {
 const restaurantsData = [
   {
     restaurant: {
-      img: "Assets/Image/Restaurant-banner/wow-momo-logo.jpg",
+      img: "Assets/Image/Restaurant-banner/momo.png",
       "restaurant name": "WOW MOMO",
       "restaurant info":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
       button: "Restaurant Page",
     },
   },
   {
     restaurant: {
-      img: "null",
-      "restaurant name": "WOW MOMO",
+      img: "Assets/Image/Restaurant-banner/biryani.png",
+      "restaurant name": "WOW BIRYANI",
       "restaurant info":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
       button: "Restaurant Page",
     },
   },
   {
     restaurant: {
-      img: "null",
-      "restaurant name": "WOW MOMO",
+      img: "Assets/Image/Restaurant-banner/pizza.png",
+      "restaurant name": "WOW PIZZA",
       "restaurant info":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
       button: "Restaurant Page",
     },
   },
   {
     restaurant: {
-      img: "null",
-      "restaurant name": "WOW MOMO",
+      img: "Assets/Image/Restaurant-banner/pasta.jpg",
+      "restaurant name": "WOW PASTA",
       "restaurant info":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
       button: "Restaurant Page",
     },
   },

@@ -1,33 +1,46 @@
 [
   {
     "restaurant": {
-      "img": "Assets/Image/Restaurant-banner/wow-momo-logo.jpg",
+      "img": "Assets/Image/Restaurant-banner/momo.png",
       "restaurant name": "WOW MOMO",
-      "restaurant info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "restaurant info":
+        "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
       "button": "Restaurant Page"
     }
   },
   {
     "restaurant": {
-      "img": "null",
-      "restaurant name": "WOW MOMO",
-      "restaurant info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "img": "Assets/Image/Restaurant-banner/biryani.png",
+      "restaurant name": "WOW BIRYANI",
+      "restaurant info":
+        "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
       "button": "Restaurant Page"
     }
   },
   {
     "restaurant": {
-      "img": "null",
-      "restaurant name": "WOW MOMO",
-      "restaurant info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "img": "Assets/Image/Restaurant-banner/pizza.png",
+      "restaurant name": "WOW PIZZA",
+      "restaurant info":
+        "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
       "button": "Restaurant Page"
     }
   },
   {
     "restaurant": {
-      "img": "null",
-      "restaurant name": "WOW MOMO",
-      "restaurant info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "img": "Assets/Image/Restaurant-banner/pasta.jpg",
+      "restaurant name": "WOW PASTA",
+      "restaurant info":
+        "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+      "button": "Restaurant Page"
+    }
+  },
+  {
+    "restaurant": {
+      "img": "Assets/Image/Restaurant-banner/noodles.jpg",
+      "restaurant name": "WOW NOODLES",
+      "restaurant info":
+        "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
       "button": "Restaurant Page"
     }
   }
