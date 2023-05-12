@@ -98,6 +98,12 @@ restaurantsData.forEach((restaurant) => {
   button.classList.add("restaurant-button");
   button.textContent = restaurant.restaurant.button;
 
+  // Add an event listener to the button element
+  button.addEventListener("click", () => {
+    // Set the URL of the destination HTML page
+    window.location.href = "Assets/HTML/restaurant.html";
+  });
+
   // Append the elements to the card element
   card.appendChild(img);
   card.appendChild(name);
