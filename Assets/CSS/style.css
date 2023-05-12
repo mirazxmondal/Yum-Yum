@@ -188,8 +188,15 @@ input[type="text"] {
   width: 40%;
   height: 50px;
   font-size: 1rem;
-  border: none;
   border-radius: 5px;
+  border: 2px solid #ff6b81;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 2px solid #ff4757;
 }
 
 .button-search {
