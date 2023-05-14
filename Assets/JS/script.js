@@ -36,7 +36,7 @@ const restaurantsData = [
       img: "Assets/Image/Restaurant-banner/momo.png",
       "restaurant name": "WOW MOMO",
       "restaurant info":
-        "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+        "Sink your teeth into the delicate and succulent pockets of goodness, bursting with savory fillings like seasoned meats, vegetables, and aromatic spices. Each bite is a taste sensation that will transport you to the bustling streets of Nepal, Tibet, and beyond.",
       button: "Restaurant Page",
     },
   },
@@ -45,7 +45,7 @@ const restaurantsData = [
       img: "Assets/Image/Restaurant-banner/biryani.png",
       "restaurant name": "WOW BIRYANI",
       "restaurant info":
-        "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+        "With Yum Yum, Experience the perfect balance of spices, the tenderness of the meat, and the fragrant aroma that fills the air. Each grain of basmati rice is infused with flavors that dance on your palate, taking you on a gastronomic journey to the heart of the biryani's origin.",
       button: "Restaurant Page",
     },
   },
@@ -54,7 +54,7 @@ const restaurantsData = [
       img: "Assets/Image/Restaurant-banner/pizza.png",
       "restaurant name": "WOW PIZZA",
       "restaurant info":
-        "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+        "Yum Yum brings together the finest pizzerias in town, ensuring that you experience the authentic flavors and craftsmanship that make pizza an all-time favoriteWhether you're a fan of thin and crispy, deep-dish, or gluten-free crusts, Yum Yum has an extensive selection to cater to your preferences.",
       button: "Restaurant Page",
     },
   },
@@ -63,7 +63,7 @@ const restaurantsData = [
       img: "Assets/Image/Restaurant-banner/pasta.jpg",
       "restaurant name": "WOW PASTA",
       "restaurant info":
-        "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+        "Whether you prefer creamy Alfredo, tangy marinara, or hearty Bolognese, Yum Yum offers an extensive selection of pasta dishes to suit every palate. Customize your pasta with a range of toppings, including succulent meats, vibrant vegetables, and aromatic herbs.",
       button: "Restaurant Page",
     },
   },
