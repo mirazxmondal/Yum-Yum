@@ -536,12 +536,12 @@ hr {
 
 .restaurant-info {
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 13px;
   color: #666;
 }
 
 .restaurant-button {
-  margin-top: 20px;
+  margin-top: 15px;
   padding: 10px 20px;
   background-color: #ff6b81;
   border-radius: 7px;
@@ -552,7 +552,7 @@ hr {
 }
 
 .restaurant-button:hover {
-  margin-top: 20px;
+  margin-top: 15px;
   padding: 10px 20px;
   background-color: #ff4757;
   border-radius: 7px;
