@@ -29,6 +29,7 @@ function myFunction(x) {
   x.classList.toggle("change");
 }
 
+
 // Find Nearby Cuisines Section
 const restaurantsData = [
   {

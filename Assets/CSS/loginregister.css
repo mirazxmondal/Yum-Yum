@@ -230,9 +230,10 @@ input {
 }
 
 .food {
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
-  margin-bottom: 10px; 
+  margin-bottom: 20px; 
 }
 
 .food-preference-heading {
