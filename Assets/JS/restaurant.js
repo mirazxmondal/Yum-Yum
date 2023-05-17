@@ -11,84 +11,96 @@ const restaurants = [
       "restaurant name": "WOW MOMO",
       "food": "Chicken Momo",
       "category": "Chinese",
-      "button": "Add to Cart"
+      "button": "Add to Cart",
+      "tags" : ""
     },
     {
       "img": "",
       "restaurant name": "WOW BIRIYANI",
       "food": "Chicken Biryani",
       "category": "Mughlai",
-      "button": "Add to Cart"
+      "button": "Add to Cart",
+      "tags" : ""
     },
     {
       "img": "",
       "restaurant name": "WOW PIZZA",
       "food": "Chicken Pizza",
       "category": "Italian",
-      "button": "Add to Cart"
+      "button": "Add to Cart",
+      "tags" : ""
     },
     {
       "img": "",
       "restaurant name": "WOW PASTA",
       "food": "Chicken Pasta",
       "category": "Italian",
-      "button": "Add to Cart"
+      "button": "Add to Cart",
+      "tags" : ""
     },
     {
         "img": "",
         "restaurant name": "WOW MOMO",
         "food": "Chicken Momo",
         "category": "Chinese",
-        "button": "Add to Cart"
+        "button": "Add to Cart",
+        "tags" : ""
       },
       {
         "img": "",
         "restaurant name": "WOW BIRIYANI",
         "food": "Chicken Biryani",
         "category": "Mughlai",
-        "button": "Add to Cart"
+        "button": "Add to Cart",
+        "tags" : ""
       },
       {
         "img": "",
         "restaurant name": "WOW PIZZA",
         "food": "Chicken Pizza",
         "category": "Italian",
-        "button": "Add to Cart"
+        "button": "Add to Cart",
+        "tags" : ""
       },
       {
         "img": "",
         "restaurant name": "WOW PASTA",
         "food": "Chicken Pasta",
         "category": "Italian",
-        "button": "Add to Cart"
+        "button": "Add to Cart",
+        "tags" : ""
       },
       {
         "img": "",
         "restaurant name": "WOW MOMO",
         "food": "Chicken Momo",
         "category": "Chinese",
-        "button": "Add to Cart"
+        "button": "Add to Cart",
+        "tags" : ""
       },
       {
         "img": "",
         "restaurant name": "WOW BIRIYANI",
         "food": "Chicken Biryani",
         "category": "Mughlai",
-        "button": "Add to Cart"
+        "button": "Add to Cart",
+        "tags" : ""
       },
       {
         "img": "",
         "restaurant name": "WOW PIZZA",
         "food": "Chicken Pizza",
         "category": "Italian",
-        "button": "Add to Cart"
+        "button": "Add to Cart",
+        "tags" : ""
       },
       {
         "img": "",
         "restaurant name": "WOW PASTA",
         "food": "Chicken Pasta",
         "category": "Italian",
-        "button": "Add to Cart"
+        "button": "Add to Cart",
+        "tags" : ""
       }
   ];
 

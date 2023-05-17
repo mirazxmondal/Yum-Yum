@@ -1,10 +1,10 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Custom scrollbar  */
+/* Custom scrollbar */
 /* width */
 ::-webkit-scrollbar {
   width: 0.6rem;
@@ -106,7 +106,7 @@ ul {
 }
 
 .button::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -156,7 +156,7 @@ ul {
 }
 
 .image {
-  background: lightblue url('../Image/blog1.jpg') no-repeat fixed center;
+  background: lightblue url("../Image/blog1.jpg") no-repeat fixed center;
   object-fit: cover;
   width: 100%;
   height: 150px;
@@ -326,23 +326,21 @@ hr {
   transform: translate(0, -11px) rotate(45deg);
 } */
 
-/* Modal Css */
+/* Modal CSS */
 .modal {
   width: 50%;
   background-color: white;
-  border: 5px solid #ff789c;
+  border: 3px solid #ff789c;
   text-align: center;
   padding: 2rem 5rem;
+  border-radius: 15px;
 }
-.modal::backdrop {
-  backdrop-filter: blur(5px);
-  background-color: rgba(0, 0, 0, 0.5);
-}
+
 .close-modal-btn {
   position: absolute;
   right: 1.5rem;
   top: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   opacity: 0.5;
   border: none;
   background-color: transparent;
@@ -350,11 +348,17 @@ hr {
   transition: opacity 0.25s;
   cursor: pointer;
 }
+
+.modal::backdrop {
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .close-modal-btn:hover,
 .close-modal-btn:focus {
-  opacity: 1;
+  opacity: 1.5;
 }
+
 .modal-img {
   width: 50%;
 }
-/* Modal Css */

@@ -144,6 +144,13 @@ ul {
 
 /* Restaurant Main */
 
+
+hr {
+  margin-top: 53px;
+  height: 1px;
+  width: 80%;
+}
+
 /* Footer */
 .footer-main {
   display: flex !important;
@@ -238,8 +245,8 @@ ul {
 .heading-button-sub {
   font-size: larger;
   font-weight: 500;
-  height: 40px;
-  width: 150px;
+  height: 50px;
+  width: 125px;
   color: #fc8eac;
   border-radius: 7px;
   border-color: #fc8eac;
@@ -250,28 +257,8 @@ ul {
 .restaurant-container {
   margin-left: 10%;
   margin-right: 10%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.restaurant {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin: 10px;
-}
-
-.restaurant img {
-  max-width: 100px;
-  height: auto;
-}
-
-.restaurant h3 {
-  margin: 5px 0;
-}
-
-.restaurant p {
-  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .button-add-to-cart {
@@ -285,6 +272,7 @@ ul {
   font-size: 16px;
   margin-top: 10px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .button-add-to-cart:hover {
@@ -298,4 +286,24 @@ ul {
   font-size: 16px;
   margin-top: 10px;
   cursor: pointer;
+  border-radius: 5px;
+}
+
+.restaurant {
+  border: 1px solid #ff6b81;
+  padding: 25px;
+  margin: 10px;
+}
+
+.restaurant img {
+  max-width: 100px;
+  height: auto;
+}
+
+.restaurant h3 {
+  margin: 10px 0;
+}
+
+.restaurant p {
+  margin: 0;
 }
