@@ -330,15 +330,16 @@ hr {
 .modal {
   width: 50%;
   background-color: white;
-  border: 5px solid #ff789c;
+  border: 3px solid #ff789c;
   text-align: center;
   padding: 2rem 5rem;
 }
+
 .close-modal-btn {
   position: absolute;
   right: 1.5rem;
   top: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   opacity: 0.5;
   border: none;
   background-color: transparent;
@@ -346,11 +347,13 @@ hr {
   transition: opacity 0.25s;
   cursor: pointer;
 }
+
 .close-modal-btn:hover,
 .close-modal-btn:focus {
-  opacity: 1;
+  opacity: 1.5;
 }
+
 .modal-img {
   width: 50%;
 }
-/* Modal Css */
+
