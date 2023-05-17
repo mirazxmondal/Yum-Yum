@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Custom scrollbar  */
@@ -106,7 +106,7 @@ ul {
 }
 
 .button::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -156,7 +156,7 @@ ul {
 }
 
 .image {
-  background: lightblue url('../Image/blog1.jpg') no-repeat fixed center;
+  background: lightblue url("../Image/blog1.jpg") no-repeat fixed center;
   object-fit: cover;
   width: 100%;
   height: 150px;
@@ -326,13 +326,14 @@ hr {
   transform: translate(0, -11px) rotate(45deg);
 } */
 
-/* Modal Css */
+/* Modal CSS */
 .modal {
   width: 50%;
   background-color: white;
   border: 3px solid #ff789c;
   text-align: center;
   padding: 2rem 5rem;
+  border-radius: 15px;
 }
 
 .close-modal-btn {
@@ -348,6 +349,11 @@ hr {
   cursor: pointer;
 }
 
+.modal::backdrop {
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .close-modal-btn:hover,
 .close-modal-btn:focus {
   opacity: 1.5;
@@ -356,4 +362,3 @@ hr {
 .modal-img {
   width: 50%;
 }
-
