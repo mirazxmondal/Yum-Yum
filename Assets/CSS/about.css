@@ -334,6 +334,10 @@ hr {
   text-align: center;
   padding: 2rem 5rem;
 }
+.modal::backdrop {
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .close-modal-btn {
   position: absolute;
   right: 1.5rem;
