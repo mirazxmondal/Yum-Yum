@@ -106,6 +106,106 @@ const restaurantsData = [
 ];
 
 // Get the container element for the restaurants
+const restaurants = [
+  {
+    img: "",
+    "restaurant name": "WOW MOMO",
+    food: "Chicken Momo",
+    category: "Chaat",
+    button: "Add to Cart",
+    tags: "",
+  },
+  {
+    img: "",
+    "restaurant name": "WOW BIRIYANI",
+    food: "Chicken Biryani",
+    category: "North India",
+    button: "Add to Cart",
+    tags: "",
+  },
+  {
+    img: "",
+    "restaurant name": "WOW PIZZA",
+    food: "Chicken Pizza",
+    category: "South India",
+    button: "Add to Cart",
+    tags: "",
+  },
+  {
+    img: "",
+    "restaurant name": "WOW PASTA",
+    food: "Red Sauce Pasta",
+    category: "Italian",
+    button: "Add to Cart",
+    tags: "",
+  },
+  {
+    img: "",
+    "restaurant name": "WOW MOMO",
+    food: "Chicken Momo",
+    category: "Chinese",
+    button: "Add to Cart",
+    tags: "",
+  },
+  {
+    img: "",
+    "restaurant name": "WOW BIRIYANI",
+    food: "Chicken Biryani",
+    category: "Mughlai",
+    button: "Add to Cart",
+    tags: "",
+  },
+  {
+    img: "",
+    "restaurant name": "WOW PIZZA",
+    food: "Chicken Pizza",
+    category: "Italian",
+    button: "Add to Cart",
+    tags: "",
+  },
+  {
+    img: "",
+    "restaurant name": "WOW PASTA",
+    food: "Chicken Pasta",
+    category: "Bengali",
+    button: "Add to Cart",
+    tags: "",
+  },
+  {
+    img: "",
+    "restaurant name": "WOW MOMO",
+    food: "Chicken Momo",
+    category: "Chinese",
+    button: "Add to Cart",
+    tags: "",
+  },
+  {
+    img: "",
+    "restaurant name": "WOW BIRIYANI",
+    food: "Chicken Biryani",
+    category: "Mughlai",
+    button: "Add to Cart",
+    tags: "",
+  },
+  {
+    img: "",
+    "restaurant name": "WOW PIZZA",
+    food: "Chicken Pizza",
+    category: "Italian",
+    button: "Add to Cart",
+    tags: "",
+  },
+  {
+    img: "",
+    "restaurant name": "WOW PASTA",
+    food: "Chicken Pasta",
+    category: "Italian",
+    button: "Add to Cart",
+    tags: "",
+  },
+];
+
+// Get the container element for the restaurants
 const container = document.querySelector("#restaurant-container");
 
 // Loop through the restaurants data and create HTML elements for each restaurant
@@ -150,3 +250,47 @@ restaurantsData.forEach((restaurant) => {
   container.appendChild(card);
 });
 
+// Get the container element for the restaurants
+const search = document.getElementById("searchbutton");
+
+search.addEventListener("click", function foodsearch(e) {
+  e.preventDefault();
+  const searchInput = document.getElementById("searchInput").value;
+  if (searchInput) {
+    localStorage.setItem("searchInput", searchInput);
+    window.location.href = "Assets/HTML/food-item.html";
+
+    const container = document.getElementById("restaurantContainer");
+    container.innerHTML = "";
+    restaurants.forEach(function (restaurant) {
+      if (restaurant.food === `${searchInput}`) {
+        const div = document.createElement("div");
+        div.classList.add("restaurant");
+
+        const img = document.createElement("img");
+        img.src = restaurant.img;
+
+        const h3 = document.createElement("h3");
+        h3.textContent = restaurant["restaurant name"];
+
+        const p1 = document.createElement("p");
+        p1.textContent = " " + restaurant.food;
+
+        const p2 = document.createElement("p");
+        p2.textContent = " " + restaurant.category;
+
+        const button = document.createElement("button");
+        button.classList.add("button-add-to-cart");
+        button.textContent = restaurant.button;
+
+        div.appendChild(img);
+        div.appendChild(h3);
+        div.appendChild(p1);
+        div.appendChild(p2);
+        div.appendChild(button);
+
+        container.appendChild(div);
+      }
+    });
+  }
+});

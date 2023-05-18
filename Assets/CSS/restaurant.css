@@ -307,3 +307,17 @@ hr {
 .restaurant p {
   margin: 0;
 }
+
+#no-results-found {
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+}
+
+/* Hidden Class */
+.hidden {
+  display: none;
+}
