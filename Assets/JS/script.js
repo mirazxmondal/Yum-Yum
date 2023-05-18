@@ -150,18 +150,3 @@ restaurantsData.forEach((restaurant) => {
   container.appendChild(card);
 });
 
-
-/**
- * This function gets the value of a search input, stores it in localStorage, and redirects to a search
- * page.
- */
-function search() {
-  // Get the search input value
-  var searchValue = document.getElementById("searchInput").value.toLowerCase();
-
-  // Store the search value in localStorage to access it on the search page
-  localStorage.setItem("searchValue", searchValue);
-
-  // Redirect to the search page
-  window.location.href = "Assets/HTML/restaurant.html";
-}
