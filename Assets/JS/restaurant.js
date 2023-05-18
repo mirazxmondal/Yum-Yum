@@ -7,7 +7,7 @@ and `button` elements with the relevant information from the `restaurants` array
 element is appended to the `container` element in the HTML. */
 const restaurants = [
   {
-    img: "",
+    img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW MOMO",
     food: "Chicken Momo",
     category: "Chaat",
@@ -15,7 +15,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "",
+    img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW BIRIYANI",
     food: "Chicken Biryani",
     category: "North India",
@@ -23,7 +23,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "",
+    img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW PIZZA",
     food: "Chicken Pizza",
     category: "South India",
@@ -31,7 +31,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "",
+    img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW PASTA",
     food: "Red Sauce Pasta",
     category: "Italian",
@@ -39,7 +39,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "",
+    img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW MOMO",
     food: "Chicken Momo",
     category: "Chinese",
@@ -47,7 +47,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "",
+    img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW BIRIYANI",
     food: "Chicken Biryani",
     category: "Mughlai",
@@ -55,7 +55,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "",
+    img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW PIZZA",
     food: "Chicken Pizza",
     category: "Italian",
@@ -63,7 +63,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "",
+    img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW PASTA",
     food: "Chicken Pasta",
     category: "Bengali",
@@ -71,7 +71,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "",
+    img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW MOMO",
     food: "Chicken Momo",
     category: "Chinese",
@@ -79,7 +79,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "",
+    img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW BIRIYANI",
     food: "Chicken Biryani",
     category: "Mughlai",
@@ -87,7 +87,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "",
+    img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW PIZZA",
     food: "Chicken Pizza",
     category: "Italian",
@@ -95,7 +95,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "",
+    img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW PASTA",
     food: "Chicken Pasta",
     category: "Italian",
@@ -104,13 +104,8 @@ const restaurants = [
   },
 ];
 
+// All Food Cards
 const container = document.getElementById("restaurantContainer");
-const northindiafood = document.getElementById("north-india");
-const southindiafood = document.getElementById("south-india");
-const bengalifood = document.getElementById("bengali");
-const chinesefood = document.getElementById("chinese");
-const italianfood = document.getElementById("italian");
-const chaatfood = document.getElementById("chaat");
 
 restaurants.forEach((restaurant) => {
   const div = document.createElement("div");
@@ -142,6 +137,8 @@ restaurants.forEach((restaurant) => {
 });
 
 // North India Food Cards
+const northindiafood = document.getElementById("north-india");
+
 northindiafood.addEventListener("click", function () {
   const container = document.getElementById("restaurantContainer");
   container.innerHTML = "";
@@ -178,6 +175,8 @@ northindiafood.addEventListener("click", function () {
 });
 
 // South India Food Cards
+const southindiafood = document.getElementById("south-india");
+
 southindiafood.addEventListener("click", function () {
   const container = document.getElementById("restaurantContainer");
   container.innerHTML = "";
@@ -214,6 +213,8 @@ southindiafood.addEventListener("click", function () {
 });
 
 // Bengali Food Cards
+const bengalifood = document.getElementById("bengali");
+
 bengalifood.addEventListener("click", function () {
   const container = document.getElementById("restaurantContainer");
   container.innerHTML = "";
@@ -250,6 +251,8 @@ bengalifood.addEventListener("click", function () {
 });
 
 // Chinese Food Cards
+const chinesefood = document.getElementById("chinese");
+
 chinesefood.addEventListener("click", function () {
   const container = document.getElementById("restaurantContainer");
   container.innerHTML = "";
@@ -286,6 +289,8 @@ chinesefood.addEventListener("click", function () {
 });
 
 // Italian Food Cards
+const italianfood = document.getElementById("italian");
+
 italianfood.addEventListener("click", function () {
   const container = document.getElementById("restaurantContainer");
   container.innerHTML = "";
@@ -322,6 +327,8 @@ italianfood.addEventListener("click", function () {
 });
 
 // Chaat Food Cards
+const chaatfood = document.getElementById("chaat");
+
 chaatfood.addEventListener("click", function () {
   const container = document.getElementById("restaurantContainer");
   container.innerHTML = "";
