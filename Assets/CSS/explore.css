@@ -34,6 +34,7 @@ header {
   top: 0;
   z-index: 1000;
   border-bottom: solid 2px #fc8eac;
+  position: relative;
 }
 
 .yum-yum-navlogo {
@@ -43,7 +44,6 @@ header {
 }
 
 a {
-  font-weight: 600;
   text-decoration: none;
   color: #ff4757;
 }
@@ -66,17 +66,6 @@ a {
   width: 50px;
 }
 
-/* .a-cart {
-    margin-top: 10px;
-    position: absolute;
-    right: 5%;
-}
-
-.cart-size {
-    height: 50px;
-    width: 50px;
-} */
-
 .a-button {
   margin-top: 15px;
 }
@@ -89,7 +78,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   margin: 0%;
 }
 

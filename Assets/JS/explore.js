@@ -40,7 +40,7 @@ function createRecipeCard(recipe) {
         <ul>
             ${recipe.recipe.ingredientLines.map(ingredient => `<li>${ingredient}</li>`).join('')}
         </ul>
-        <a href="${recipe.recipe.url}" target="_blank">View Recipe</a>
+        <a href="${recipe.recipe.url}" target="_blank"><button style="background-color: #ff6b81; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; margin-top:20px">View Recipe</button></a>
     `;
     return recipeCard;
 }
