@@ -8,8 +8,8 @@ element is appended to the `container` element in the HTML. */
 const restaurants = [
   {
     img: "./Assets/Image/Restaurant-banner/south-indian.png",
-    "restaurant name": "WOW MOMO",
-    food: "Chicken Momo",
+    "restaurant name": "WOW CHAAT",
+    food: "Bhel puri",
     category: "Chaat",
     button: "Add to Cart",
     tags: "",
@@ -17,15 +17,15 @@ const restaurants = [
   {
     img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW BIRIYANI",
-    food: "Chicken Biryani",
+    food: "Butter Chicken",
     category: "North India",
     button: "Add to Cart",
     tags: "",
   },
   {
     img: "./Assets/Image/Restaurant-banner/south-indian.png",
-    "restaurant name": "WOW PIZZA",
-    food: "Chicken Pizza",
+    "restaurant name": "WOW South",
+    food: "Idli",
     category: "South India",
     button: "Add to Cart",
     tags: "",
@@ -64,8 +64,8 @@ const restaurants = [
   },
   {
     img: "./Assets/Image/Restaurant-banner/south-indian.png",
-    "restaurant name": "WOW PASTA",
-    food: "Chicken Pasta",
+    "restaurant name": "WOW BENGALI",
+    food: "Vetki Macher Paturi",
     category: "Bengali",
     button: "Add to Cart",
     tags: "",
@@ -73,7 +73,7 @@ const restaurants = [
   {
     img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW MOMO",
-    food: "Chicken Momo",
+    food: "Chicken Noodles",
     category: "Chinese",
     button: "Add to Cart",
     tags: "",
@@ -89,7 +89,7 @@ const restaurants = [
   {
     img: "./Assets/Image/Restaurant-banner/south-indian.png",
     "restaurant name": "WOW PIZZA",
-    food: "Chicken Pizza",
+    food: "Gelato",
     category: "Italian",
     button: "Add to Cart",
     tags: "",
