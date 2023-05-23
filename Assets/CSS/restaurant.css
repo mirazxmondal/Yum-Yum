@@ -297,8 +297,9 @@ hr {
 }
 
 .restaurant img {
-  max-width: 100px;
+  max-width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 .restaurant h3 {
@@ -307,6 +308,7 @@ hr {
 
 .restaurant p {
   margin: 0;
+  margin-bottom: 10px;
 }
 
 #no-results-found {
