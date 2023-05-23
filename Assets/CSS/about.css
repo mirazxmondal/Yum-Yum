@@ -329,10 +329,12 @@ hr {
 
 /* Modal CSS */
 .modal {
-  width: 50%;
+  width: 60%;
+  height: 70%;
   background-color: white;
   border: 3px solid #ff789c;
   text-align: center;
+  justify-content: center;
   padding: 2rem 5rem;
   border-radius: 15px;
 }
@@ -361,5 +363,5 @@ hr {
 }
 
 .modal-img {
-  width: 50%;
+  width: 40%;
 }
