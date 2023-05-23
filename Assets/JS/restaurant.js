@@ -7,7 +7,7 @@ and `button` elements with the relevant information from the `restaurants` array
 element is appended to the `container` element in the HTML. */
 const restaurants = [
   {
-    img: "./Assets/Image/Restaurant-banner/south-indian.png",
+    img: "./res/banner-image.jpg",
     "restaurant name": "WOW CHAAT",
     food: "Bhel puri",
     category: "Chaat",
@@ -15,7 +15,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "./Assets/Image/Restaurant-banner/south-indian.png",
+    img: "",
     "restaurant name": "WOW BIRIYANI",
     food: "Butter Chicken",
     category: "North India",
@@ -23,7 +23,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "./Assets/Image/Restaurant-banner/south-indian.png",
+    img: " ",
     "restaurant name": "WOW South",
     food: "Idli",
     category: "South India",
@@ -31,7 +31,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "./Assets/Image/Restaurant-banner/south-indian.png",
+    img: " ",
     "restaurant name": "WOW PASTA",
     food: "Red Sauce Pasta",
     category: "Italian",
@@ -39,7 +39,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "./Assets/Image/Restaurant-banner/south-indian.png",
+    img: " ",
     "restaurant name": "WOW MOMO",
     food: "Chicken Momo",
     category: "Chinese",
@@ -47,7 +47,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "./Assets/Image/Restaurant-banner/south-indian.png",
+    img: " ",
     "restaurant name": "WOW BIRIYANI",
     food: "Chicken Biryani",
     category: "Mughlai",
@@ -55,7 +55,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "./Assets/Image/Restaurant-banner/south-indian.png",
+    img: " ",
     "restaurant name": "WOW PIZZA",
     food: "Chicken Pizza",
     category: "Italian",
@@ -63,7 +63,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "./Assets/Image/Restaurant-banner/south-indian.png",
+    img: " ",
     "restaurant name": "WOW BENGALI",
     food: "Vetki Macher Paturi",
     category: "Bengali",
@@ -71,7 +71,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "./Assets/Image/Restaurant-banner/south-indian.png",
+    img: " ",
     "restaurant name": "WOW MOMO",
     food: "Chicken Noodles",
     category: "Chinese",
@@ -79,7 +79,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "./Assets/Image/Restaurant-banner/south-indian.png",
+    img: " ",
     "restaurant name": "WOW BIRIYANI",
     food: "Chicken Biryani",
     category: "Mughlai",
@@ -87,7 +87,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "./Assets/Image/Restaurant-banner/south-indian.png",
+    img: " ",
     "restaurant name": "WOW PIZZA",
     food: "Gelato",
     category: "Italian",
@@ -95,7 +95,7 @@ const restaurants = [
     tags: "",
   },
   {
-    img: "./Assets/Image/Restaurant-banner/south-indian.png",
+    img: " ",
     "restaurant name": "WOW PASTA",
     food: "Chicken Pasta",
     category: "Italian",
@@ -113,6 +113,7 @@ restaurants.forEach((restaurant) => {
 
   const img = document.createElement("img");
   img.src = restaurant.img;
+  console.log(restaurant.img);
 
   const h3 = document.createElement("h3");
   h3.textContent = restaurant["restaurant name"];
