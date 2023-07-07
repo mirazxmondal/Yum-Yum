@@ -54,7 +54,7 @@ const restaurantsData = [
       img: "Assets/Image/Restaurant-banner/pizza.png",
       "restaurant name": "WOW PIZZA",
       "restaurant info":
-        "Yum Yum brings together the finest pizzerias in town, ensuring that you experience the authentic flavors and craftsmanship that make pizza an all-time favoriteWhether you're a fan of thin and crispy, deep-dish, or gluten-free crusts.",
+        "Yum Yum brings together the finest pizzerias in town, ensuring that you experience the authentic flavors and craftsmanship that make pizza an all-time favoriteWhether you're a fan of thin and crispy, deep-dish, or gluten-free crusts. Bestest Pizza in the town.",
       button: "Restaurant Page",
     },
   },
@@ -81,7 +81,7 @@ const restaurantsData = [
       img: "Assets/Image/Restaurant-banner/north-indian..png",
       "restaurant name": "WOW NORTH INDIAN",
       "restaurant info":
-        "North Indian cuisine is a tapestry of diverse flavors, aromatic spices, and rich culinary traditions. With its roots in the fertile plains of the Indo-Gangetic region, North Indian food offers a delightful array of dishes that captivate the senses and leave a lasting impression. Tandoori chicken, marinated in yogurt and spices, and succulent kebabs are iconic examples of the culinary.",
+        "North Indian cuisine is a tapestry of diverse flavors, aromatic spices, and rich culinary traditions. With its roots in the fertile plains of the Indo-Gangetic region, North Indian food offers a delightful array of dishes that captivate the senses and leave a lasting impression. Tandoori chicken, marinated in yogurt and spices.",
       button: "Restaurant Page",
     },
   },
