@@ -29,6 +29,8 @@ body {
 
 /* Navbar */
 header {
+  margin-left: 10.5%;
+  margin-right: 10.5%;
   background-color: white;
   position: sticky;
   top: 0;
@@ -72,14 +74,15 @@ a {
 
 .nav-head {
   display: flex;
-  margin-left: 780px;
+  /* margin-left: 780px; */
 }
 
 ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  margin: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 /* Button-animation */
@@ -135,6 +138,7 @@ ul {
   }
 
   .cart-size {
+
   }
 
   .a-button {
@@ -146,7 +150,6 @@ ul {
 .banner {
   text-align: center;
   background-image: url(../Image/banner-image.jpg);
-  /* background-image: url(../Image/banner-image1.avif); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -220,7 +223,6 @@ input[type="text"]:focus {
   overflow: hidden;
   width: 300px;
   background-color: #fff;
-  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
   border: 1px solid #fc8eac;
   border-radius: 5px;
   padding: 20px;
@@ -231,7 +233,6 @@ input[type="text"]:focus {
 .restaurant-card:hover {
   width: 300px;
   background-color: #fff;
-  /* box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1); */
   padding: 20px;
   margin: 20px;
   display: inline-block;
@@ -290,7 +291,7 @@ input[type="text"]:focus {
 
 h1 {
   font-family: "JetBrains Mono", monospace;
-  margin-left: 45px;
+  margin-left: 10.5%;
   color: #ff4757;
 }
 
@@ -312,8 +313,8 @@ h1 {
 .badge-main {
   display: flex;
   flex-direction: row;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 10.5%;
+  margin-right: 10.5%;
   margin-top: 50px;
   text-align: center;
 }
