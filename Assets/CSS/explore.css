@@ -29,6 +29,8 @@ body {
 
 /* Navbar */
 header {
+  margin-left: 10.5%;
+  margin-right: 10.5%;
   background-color: white;
   position: sticky;
   top: 0;
@@ -72,14 +74,14 @@ a {
 
 .nav-head {
   display: flex;
-  margin-left: 780px;
 }
 
 ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  margin: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 /* Button-animation */
@@ -135,7 +137,7 @@ ul {
   }
 
   .cart-size {
-    display: none;
+
   }
 
   .a-button {
